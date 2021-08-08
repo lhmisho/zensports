@@ -1,0 +1,815 @@
+@media (min-width: 992px) and (max-width: 1199px){
+
+    /* Menu And Logo */
+
+    .toggle-social img, .toggle-class img {
+        width: 170px;
+    }
+
+    .logo img {
+        width: 280px;
+    }
+
+    .social-menu ul li span, .main-menu ul li span {
+        padding: 15px 0 12px 0;
+    }
+
+    .main-menu {
+        height: 365px;
+        right: 5.6rem;
+        top: 1.8rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 4%, 84% 4%, 79% 0, 73% 4%, 0 4%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 4%, 82% 4%, 78% 0, 74% 4%, 0 4%);
+    }
+
+    .social-menu {
+        height: 275px;
+        left: 5.4rem;
+        top: 2rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 5%, 24% 5%, 20% 0, 16% 5%, 0 5%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 5%, 23% 5%, 20% 0, 16% 5%, 0 5%);
+    }
+
+
+    .social-menu, .main-menu {
+        width: 200px;
+    }
+
+    .social-menu ul li span img, .main-menu ul li span img {
+        width: 140px;
+    }
+
+    /* Menu And Logo */
+
+    /* Banner */
+
+    .banner-content {
+        left: 3%;
+    }
+
+    .banner-content p {
+        font-size: 27px;
+        padding-top: 8rem;
+    }
+
+    /* Banner */
+
+    /* service */
+
+    .service-heading h2::after {
+        left: 35%;
+        width: 90px;
+        bottom: 18%;
+    }
+
+    .service-img-logo {
+        margin-top: -2rem;
+    }
+
+    .service-up {
+        margin-top: -2rem;
+    }
+
+    .service-img .overly-logo, .service-img-logo .overly-logo {
+        width: 190px;
+        height: 200px;
+        top: -50%;
+        left: -63%;
+    }
+
+    /* Service */
+
+    /* Work And Event */
+
+    .work-event-heading h2::after {
+        bottom: 18%;
+        left: 24.5%;
+        width: 182px;
+    }
+
+    .overly-work a {
+        margin-top: 7rem;
+    }
+
+    .overly-work p {
+        font-size: 32px;
+        margin-top: 3rem;
+    }
+
+    /* Work And Event */
+
+    /* Clients And Partners */
+
+    .client-heading h2 {
+        font-size: 65px;
+    }
+
+    .client-heading h2::after {
+        bottom: 18%;
+        left: 15%;
+        width: 215px;
+    }
+
+    /* Clients And Partners */
+
+    /* Team */
+
+    .team-heading h2::after {
+        left: 32%;
+    }
+
+    .team-slide .slick-track {
+        padding: 8rem 0 9rem 0px;
+    }
+
+    .slide-img .overlay p {
+        font-size: 26px;
+    }
+
+    .slide-img .overlay {
+        top: -7%;
+        left: 25%;
+    }
+
+    .slide-img .member-detail {
+        bottom: -12%;
+        left: 22%;
+    }
+
+    .slide-img .member-detail p {
+        font-size: 18px;
+    }
+
+    /* Team */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    /* Menu And Logo */
+
+    .social-menu ul li span, .main-menu ul li span {
+        padding: 10px 0 10px 0;
+    }
+
+    .toggle-social img, .toggle-class img {
+        width: 160px;
+    }
+
+    .main-menu {
+        height: 315px;
+        right: 3.1rem;
+        top: 1.8rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 4%, 84% 4%, 79% 0, 73% 4%, 0 4%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 4%, 82% 4%, 78% 0, 74% 4%, 0 4%);
+    }
+
+    .social-menu {
+        height: 220px;
+        left: 3rem;
+        top: 2rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 5%, 24% 5%, 20% 0, 16% 5%, 0 5%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 5%, 23% 5%, 20% 0, 16% 5%, 0 5%);
+    }
+
+    .social-menu, .main-menu {
+        width: 200px;
+    }
+
+    .logo img {
+        width: 251px;
+    }
+
+    .social-menu ul li span img, .main-menu ul li span img {
+        width: 110px;
+    }
+
+    /* Menu And Logo */
+
+    /* Banner */
+
+    #banner {
+        height: 520px;
+    }
+
+    .banner-content {
+        top: 33%;
+        left: 3%;
+    }
+
+    .banner-content h2 {
+        font-size: 90px;
+    }
+
+    .banner-content h2 span::after {
+        height: 70px;
+        top: 1.7rem;
+    }
+
+    .banner-content p {
+        font-size: 21px;
+        padding-top: 8rem;
+        line-height: 2.2rem;
+    }
+
+    /* Banner */
+
+    /* Service */
+
+    .service-heading h2 {
+        font-size: 45px;
+    }
+
+    .service-heading h2::after {
+        left: 37%;
+        width: 60px;
+        bottom: 18%;
+    }
+
+    .service-img-logo {
+        margin-top: -2rem;
+    }
+
+    .service-up {
+        margin-top: -2rem;
+    }
+
+    .service-img .overly-logo, .service-img-logo .overly-logo {
+        width: 122px;
+        height: 180px;
+        top: -80%;
+        left: -74%;
+    }
+
+    /* Service */
+
+    /* Work And Event */
+
+    .work-event-heading h2::after {
+        bottom: 18%;
+        left: 15.5%;
+        width: 181px;;
+    }
+
+    .overly-work a {
+        padding: 2px 20px;
+        margin-top: 4rem;
+    }
+
+    .overly-work p {
+        font-size: 24px;
+        margin-top: 2.5rem;
+    }
+
+    .overly-work p span {
+        margin-top: -.8rem;
+        font-size: 18px;
+    }
+
+    /* Work And Event */
+
+    /* Clients And Partners */
+
+    .client-heading h2 {
+        font-size: 60px;
+    }
+
+    .client-heading h2::after {
+        bottom: 16%;
+        left: 7%;
+        width: 195px;;
+    }
+
+    /* Clients And Partners */
+
+    /* Team */
+
+    .team-heading h2::after {
+        left: 27%;
+        width: 88px;
+    }
+
+    .team-slide .slick-slide {
+        padding: 0 10px;
+    }
+
+    .slide-img .overlay p {
+        font-size: 28px;
+    }
+
+    .slide-img .overlay {
+        position: absolute;
+        top: -9%;
+        left: 17%;
+        opacity: 0;
+    }
+
+    .slide-img .member-detail {
+        bottom: -14%;
+        left: 17%;
+    }
+
+    /* Team */
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    /* Menu And Logo */
+
+    .toggle-social img, .toggle-class img {
+        width: 150px;
+    }
+
+    .main-menu {
+        height: 275px;
+        right: 1.9rem;
+        top: 1.8rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 4%, 84% 4%, 79% 0, 73% 4%, 0 4%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 4%, 84% 4%, 79% 0, 73% 4%, 0 4%);
+    }
+
+    .social-menu {
+        height: 185px;
+        left: 1.5rem;
+        top: 2rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 4%, 24% 4%, 20% 0, 16% 4%, 0 4%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 4%, 24% 4%, 20% 0, 16% 4%, 0 4%);
+    }
+
+    .social-menu, .main-menu {
+        width: 150px;
+    }
+
+    .logo img {
+        width: 220px;
+    }
+
+    .social-menu ul li span img, .main-menu ul li span img {
+        width: 80px;
+    }
+
+    /* Menu And Logo */
+
+    /* Banner */
+
+    #banner {
+        height: 450px;
+    }
+
+    .banner-content {
+        left: 1%;
+    }
+
+    .banner-content h2 {
+        font-size: 75px;
+    }
+
+    .banner-content h2 span::after {
+        height: 65px;
+        top: 1.3rem;
+    }
+
+    .banner-content p {
+        font-size: 18px;
+        padding-top: 8rem;
+        line-height: 1.7rem;
+        font-weight: 300;
+    }
+
+    /* Banner */
+
+    /* Service */
+
+    .service-heading h2 {
+        font-size: 40px;
+    }
+
+    .service-heading h2::after {
+        left: 34%;
+        width: 55px;
+        bottom: 15%;
+    }
+
+    .service-up {
+        margin-top: 0rem;
+    }
+
+    .service-img{
+        padding: 1.3rem;
+    }
+
+    .service-img .overly-logo, .service-img-logo .overly-logo {
+        width: 300px;
+        height: 299px;
+        top: -32%;
+        left: 4%;
+    }
+
+    /* Service */
+
+    /* Work And Event */
+
+    .work-event-heading p {
+        font-size: 18px;
+    }
+
+    .work-event-heading h2 {
+        font-size: 55px;
+    }
+
+    .work-event-heading h2::after {
+        bottom: 18%;
+        left: 13%;
+        width: 145px;
+    }
+
+    .overly-work a {
+        margin-top: 8rem;
+        padding: 3px 20px;
+    }
+
+    /* Work And Event */
+
+    /* Clients And Partners */
+
+    .client-heading h2 {
+        font-size: 50px;
+    }
+
+    .client-heading h2::after {
+        bottom: 18%;
+        left: 2%;
+        width: 162px;
+    }
+
+    /* Clients And Partners */
+
+    /* Team */
+
+    .team-heading H2 {
+        font-size: 55px;
+    }
+
+    .team-heading h2::after {
+        left: 25%;
+        width: 72px;
+    }
+
+    .slide-img .overlay {
+        top: -10%;
+        left: 18%;
+    }
+
+    .slide-img .overlay p {
+        font-size: 22px;
+    }
+
+    .team-slide .slick-slide {
+        padding: 0 0px;
+    }
+
+    .slide-img .member-detail p {
+        font-size: 15px;
+    }
+
+    /* Team */
+
+    /* Foooter  */
+
+    .footer-address {
+        padding: 3rem 0 0 0;
+    }
+
+    /* Foooter  */
+
+}
+
+
+
+
+@media (max-width: 575px){
+
+    /* Menu And Logo */
+
+    .toggle-social img,
+    .toggle-class img {
+        width: 65px;
+    }
+
+    .main-menu {
+        height: 229px;
+        right: 1.2rem;
+        top: .8rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 3%, 84% 3%, 79% 0, 73% 3%, 0 3%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 3%, 84% 3%, 79% 0, 73% 3%, 0 3%);
+    }
+
+    .social-menu {
+        height: 190px;
+        left: 1.1rem;
+        top: .9rem;
+        clip-path: polygon(0 100%, 100% 100%, 100% 3%, 24% 3%, 20% 0, 16% 3%, 0 3%);
+        -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 3%, 24% 3%, 20% 0, 16% 3%, 0 3%);
+    }
+
+    .social-menu ul li span, .main-menu ul li span {
+        padding: 0px 0 6px 0;
+    }
+
+    .social-menu, .main-menu {
+        width: 95px;
+    }
+
+    .logo img {
+        width: 110px;
+    }
+
+    /* Menu And Logo */
+
+    /* Banner */
+
+    #banner {
+        height: 400px;
+    }
+
+    .banner-content {
+        left: 0%;
+    }
+
+    .banner-content h2 {
+        font-size: 45px;
+    }
+
+    .banner-content h2 span::after {
+        height: 40px;
+        top: 14%;
+    }
+
+    .banner-content p {
+        font-size: 17px;
+        padding-top: 7rem;
+        line-height: 1.8rem;
+    }
+
+    /* Banner */
+
+    /* Service */
+
+    #service-sec {
+        padding: 1.5rem 2rem;
+    }
+
+    .service-heading h2 {
+        font-size: 30px;
+    }
+
+    .service-heading h2::after {
+        left: 25%;
+        bottom: 15%;
+        width: 41px;
+    }
+
+    .service-img{
+        padding: 1.3rem;
+    }
+
+    .service-up {
+        margin-top: 0rem;
+    }
+
+    .service-img .overly-logo, .service-img-logo .overly-logo {
+        width: 193px;
+        height: 145px;
+        top: -39%;
+        left: 7%;
+    }
+
+    /* Service */
+
+    /* Work And Event */
+
+    .work-event-heading p {
+        font-size: 17px;
+        letter-spacing: 0.2rem;
+    }
+
+    .work-event-heading h2 {
+        font-size: 40px;
+    }
+
+    .work-event-heading h2::after {
+        bottom: 17%;
+        left: 2%;
+        width: 105px;
+    }
+
+    .overly-work a {
+        padding: 1px 14px;
+        border-radius: 3px;
+        margin-top: 4rem;
+    }
+
+    .overly-work p {
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+
+    .overly-work p span {
+        margin-top: -0.5rem;
+        font-size: 16px;
+    }
+
+    /* Work And Event */
+
+    /* Clients And Partners */
+
+    .client-heading h2 {
+        font-size: 28px;
+    }
+
+    .client-heading h2::after {
+        bottom: 14%;
+        left: 2%;
+        width: 92px;
+    }
+
+    /* Clients And Partners */
+
+    /* Team */
+
+    .team-heading H2 {
+        font-size: 50px;
+    }
+
+    .team-heading h2::after {
+        left: 10%;
+        width: 65px;
+    }
+
+    .slide-img .overlay {
+        top: -11%;
+        left: 9%;
+    }
+
+    .slide-img .overlay p {
+        font-size: 16px;
+    }
+
+    .team-slide .slick-slide {
+        padding: 0 0px;
+    }
+
+    .slide-img .member-detail p {
+        font-size: 14px;
+    }
+
+    .slide-img .member-detail p span {
+        display: block;
+        text-align: center;
+    }
+
+    .slide-img .member-detail {
+        bottom: -37%;
+        left: 12%;
+    }
+
+    .slide-img .member-social-connect ul li {
+        padding: 0 3px;
+    }
+
+    .slide-img .member-social-connect ul li a i {
+        font-size: 14px;
+    }
+
+    /* Team */
+
+    /* Foooter  */
+
+    #footer-sec {
+        padding: 3rem 0;
+    }
+
+    .footer-social-menu ul li {
+        padding: 0 8px;
+    }
+
+    .footer-social-menu ul li a i {
+        font-size: 22px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    .footer-address {
+        padding: 3rem 0 0 0;
+    }
+
+    .footer-address p {
+        font-size: 16px;
+    }
+
+    .footer-number p {
+        font-size: 20px;
+    }
+
+    .copyrirght-sec p {
+        font-size: 15px;
+    }
+
+    .copyrirght-sec p a::after {
+        width: 76px;
+    }
+
+    /* Foooter  */
+
+}
+
+@media (max-width: 767px){
+
+    /* Work And Event */
+
+    .event-details .col-lg-3 {
+        padding: 2px 3px;
+    }
+
+     /* Work And Event */
+}
+
+@media (max-width: 1199px){
+
+    /* Menu And Logo */
+
+    .social-menu ul li a,
+    .main-menu ul li a {
+        display: none;
+    }
+
+    .social-menu ul li span,
+    .main-menu ul li span{
+        display: block;
+        text-align: center;
+    }
+    .social-menu ul li,
+    .main-menu ul li{
+        display: block;
+        padding-right: 0;
+    }
+
+    .social-menu, .main-menu {
+        position: absolute;
+        background: #a7ff2d;
+        opacity: 0;
+        transition: .4s;
+        z-index: 1;
+        margin-top: -10px;
+    }
+
+    .social-menu::after,
+    .main-menu::after {
+        content: '';
+        position: absolute;
+        background: rgba(0, 0, 0, .3);
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .main-menu ul li span a,
+    .social-menu ul li span a{
+        display: block;
+    }
+
+    .social-menu.slide{
+        opacity: 1;
+        margin-top: 0;
+    }
+
+    .main-menu.show{
+        opacity: 1;
+        margin-top: 0;
+    }
+
+    .toggle-social,
+    .toggle-class{
+        display: block;
+        margin-top: -3px;
+    }
+
+    /* Menu And Logo */
+
+    /* Team */
+
+    #team-sec {
+        padding: 2rem 0;
+    }
+
+    /* Team */
+
+}
