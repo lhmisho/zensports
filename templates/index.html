@@ -1,5 +1,4 @@
 {% load static %}
-{% load embed_video_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,34 +75,34 @@
                     </div>
                     <nav class="main-menu">
                         <ul>
-                            <li><a href="#" class="active">home</a>
+                            <li><a href="#logo-menu" class="active">home</a>
                                 <span>
-                                    <a href="#"><img src="{% static 'images/Menu-Home-Buttom.png' %}" alt=""></a>
+                                    <a href="#logo-menu"><img src="{% static 'images/Menu-Home-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
-                            <li><a href="#">services</a>
+                            <li><a href="#service-sec">services</a>
                                 <span>
-                                    <a href="#"><img src="{% static 'images/Menu-Services-Buttom.png' %}" alt=""></a>
+                                    <a href="#service-sec"><img src="{% static 'images/Menu-Services-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
-                            <li><a href="#">events</a>
+                            <li><a href="#work-event">events</a>
                                 <span>
-                                    <a href="#"><img src="{% static 'images/Menu-Event-Buttom.png' %}" alt=""></a>
+                                    <a href="#work-event"><img src="{% static 'images/Menu-Event-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
-                            <li><a href="#">partnership</a>
+                            <li><a href="#client-partner">partnership</a>
                                 <span>
-                                    <a href="#"><img src="{% static 'images/Menu-Partners-Buttom.png' %}" alt=""></a>
+                                    <a href="#client-partner"><img src="{% static 'images/Menu-Partners-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
-                            <li><a href="#">team</a>
+                            <li><a href="#team-sec">team</a>
                                 <span>
-                                    <a href="#"><img src="{% static 'images/Menu-Team-Buttom.png' %}" alt=""></a>
+                                    <a href="#team-sec"><img src="{% static 'images/Menu-Team-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
-                            <li><a href="#">contact</a>
+                            <li><a href="#footer-sec">contact</a>
                                 <span>
-                                   <a href="#"> <img src="{% static 'images/Menu-Contact-Buttom.png' %}" alt=""></a>
+                                   <a href="#footer-sec"> <img src="{% static 'images/Menu-Contact-Buttom.png' %}" alt=""></a>
                                 </span>
                             </li>
                         </ul>
@@ -374,10 +373,13 @@
 
                 <div class="row justify-content-center team-slide">
             {% for member in team_members %}
-                <div class="col-lg-4 col-12">
-                    <div class="slide-img">
-                        <img src="{{ member.photo.url }}" alt="">
-                        <div class="overlay">
+                
+
+            <div class="col-lg-4 col-12">
+                <div class="slide-img">
+                    <img src="{{ member.photo.url }}" alt="">
+                    <div class="overlay text-center">
+                        <div class="member-name">
                             <p>{{ member.name }}</p>
                         </div>
                         <div class="member-detail">
@@ -393,6 +395,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             {% endfor %}
     </section>
 

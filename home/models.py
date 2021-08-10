@@ -1,6 +1,5 @@
 from django.db import models
 from django.db.models.base import Model
-from embed_video.fields import EmbedVideoField
 
 class Video(models.Model):
     video = models.FileField(upload_to='videos/%Y/%m', blank=True)
