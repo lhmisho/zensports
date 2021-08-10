@@ -1,4 +1,5 @@
 {% load static %}
+{% load embed_video_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,9 +115,9 @@
     <!-- Menu And Logo Part End-->
 
     <!-- Banner Part Start -->
-        {% for i in intro_vid %}
+        {% for video in intro_vid %}
                 <section id="banner">
-                <video src="{{ i.id }}" class="video-bg" autoplay loop muted></video>
+                <video src="{{ video.video.url }}" class="video-bg" autoplay loop muted></video>
                 <div class="container">
                     <div class="banner-content text-center">
                         <h2>zenetic <span class="typ">esports</span></h2>
@@ -214,11 +215,14 @@
                         <h2>work & <span>event</span></h2>
                     </div>
                 </div>
-                {% for w in services %}
+                
                 <div class="row event-details">
+                    {% for w in services %}
 
                     <div class="col-lg-3 col-6 col-sm-6 col-md-3">
+                        
                         <div class="work-event-item">
+                            
                             <div class="work-event-img">
                                 <img src="{{ w.work_banner.url }}" alt="example-event">
                                 <div class="overly-work">
@@ -228,7 +232,8 @@
                             </div>
                         </div>
                     </div>
-                    {% endfor %}
+                     {% endfor %}
+                    
 
 
 

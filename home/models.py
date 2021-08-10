@@ -1,9 +1,9 @@
 from django.db import models
 from django.db.models.base import Model
+from embed_video.fields import EmbedVideoField
 
-# Create your models here.
-class Intro(models.Model):
-    video_file = models.FileField(upload_to='videos/%Y/%m/', blank=True)
+class Video(models.Model):
+    video = models.FileField(upload_to='videos/%Y/%m', blank=True)
 
 class Works(models.Model):
     title = models.CharField(max_length=80)
