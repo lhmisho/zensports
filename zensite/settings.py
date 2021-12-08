@@ -27,7 +27,7 @@ SECRET_KEY = '*lgtga@y)d(22t9rwz9an%)^-#0k)!)k*6q_9*b4xcjkg@63uk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'zensite.herokuapp.com']
+ALLOWED_HOSTS = ['zensite.herokuapp.com']
 
 
 # Application definition
